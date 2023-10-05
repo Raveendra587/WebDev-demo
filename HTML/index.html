@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        div{
+            background-color: lightsalmon;
+            font-size: large;
+            border: 5px darkred double;
+            border-style: double;
+            padding: 50px 50px 50px 50px;
+            margin: 50px 50px 50px 50px;
+        }
+        .mystyle{
+            background-color: aqua;
+        }
+        #mystyle2{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: aliceblue; text-align: center;">About Me</h1>
+    <p style="color: blue; background-color: pink;">Hi this is Raveendra</p>
+    <table style="border: 1px solid violet; border-collapse: collapse;">
+        <caption style="text-align: left;">Details</caption>
+        <colgroup>
+        <col span="1" style="background-color: beige;">
+        <col span="4" style="background-color: pink;">
+        </colgroup>
+        <tr>
+            <th style="border: 1px solid violet;">Name</th>
+            <th style="border: 1px solid violet;">AGE</th>
+            <th style="border: 1px solid violet;">Occupation</th>
+            <th style="border: 1px solid violet;"> Gender </th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid violet;">Ravi</td>
+            <td style="border: 1px solid violet;">21</td>
+            <td style="border: 1px solid violet;">employee</td>
+            <td style="border: 1px solid violet;">male</td>
+        </tr>
+    </table>
+    <details>
+        <summary>More about me</summary>
+        <p>My Inspiration is my father</p>
+    </details>
+    <p>about.me is a personal web hosting service co-founded by Ryan Freitas, 
+       Tony Conrad and Tim Young in October 2009. The site offers registered users a 
+       simple platform from which to link multiple online identities, relevant external sites, and popular social networking websites such as Facebook, Flickr, and Google+. </p>
+    <pre>about.me is a personal web hosting service co-founded by Ryan Freitas, 
+Tony Conrad and Tim Young in October 2009. The site offers registered users a 
+simple platform from which to link multiple online identities, relevant external sites, and popular social networking websites such as Facebook, Flickr, and Google+.</pre>
+<div id="mystyle2">
+    <a href="https://en.wikipedia.org/wiki/Nandamuri_Balakrishna" target="_top">About Balakrishna</a>
+</div>
+<audio controls src="https://file-examples.com/storage/feaade38c1651bd01984236/2017/11/file_example_MP3_700KB.mp3"></audio>
+<ul style="list-style-type: circle;">
+    <li>Hero</li>
+    <li>heroine</li>
+    <li>villan</li>
+    <li>director</li>
+</ul>
+<dl>
+    <dt>Hero</dt>
+    <dd>Main role in the film</dd>
+    <dt>Director</dt>
+    <dd>Captain of the film</dd>
+</dl>
+<p>NBK is one of the finest (<u style="text-decoration-line: dotted; text-decoration-style: line; text-decoration-color: red;">hero</u>) actors in Indian cinema</p>
+<p>I &#128155 NBK, how can I express my gratitude than this to my most beloved actor.&#128522</p>
+<article style="background-color: yellowgreen;">I want to meet NBK</article>
+<aside style="background-color: darkkhaki;">very soon I will meet you</aside>
+<span style="background-color: palegoldenrod;">very good</span>
+<p style="background-color: antiquewhite;">hi</p>
+<h3>Personal Details</h3>
+<form>
+    <div><label for="fname">FirstName</label>
+        <input id="fname" type="text" placeholder="Enter your first name" name="fname"></div>
+    <div>
+        <label for="lname">LastName</label>
+        <input id= "lname" type="text" placeholder="Enter your LastName" name="lname">
+    </div>
+    <div>
+        <fieldset>
+            <legend>Enter your Gender</legend>
+            <input type="radio" id="male" name="sex">
+            <label for="male">Male</label>
+            <input type="radio" id="fmale" name="sex">
+            <label for="fmale">Female</label>
+            <input type="radio" id="trans" name="sex">
+            <label for="trans">Transgender</label>
+            <input type="radio" id="PFTS" name="sex">
+            <label for="PFTS">Prefer not to say</label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Marital Status</legend>
+            <input type="radio" id="married" name="marriage">
+            <label for="married">Married</label>
+            <input type="radio" id="unmar" name="marriage">
+            <label for="unmar">Un-Married</label>
+        </fieldset>
+    </div>
+    <div>
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date" name="dob">
+    </div>
+    <div>
+        <label for="age">AGE</label>
+        <input id="age" type="number" name="age">
+    </div>
+    <div>
+        <label for="phno">Mobile number</label>
+        <input type="tel" id="phno" name="phonenumber">
+    </div>
+    <div>
+        <fieldset>
+        <legend>Favorite Subject</legend>
+        <label for="intersts">Java</label>
+        <input type="checkbox" id="intersts" name="NBK">
+        <label for="chiru">JS</label>
+        <input type="checkbox" name="chiru" id="chiru">
+        <label for="NTR">C++</label>
+        <input type="checkbox" name="ntr" id="NTR">
+        <label for="RC">Python</label>
+        <input type="checkbox" name="rc" id="RC">
+    </fieldset>
+    </div>
+    <div>
+        <label for="cnt">State</label>
+        <select id="cnt">
+    <optgroup label="SouthIndian">
+        <option value="">AP</option>
+        <option value="">TS</option>
+        <option value="">TN</option>
+    </optgroup>
+    <optgroup label="NorthIndian">
+        <option value="">Maharastra</option>
+        <option value="">MP</option>
+        <option value="">Rajasthan</option>
+    </optgroup>
+        </select>
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <div>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass">
+    </div>
+    <div>
+        <label for="file">Upload your resume</label>
+        <input type="file" name="file" id="file">
+    </div>
+    <div>
+        <label for="sal">Salary</label>
+        <input type="range" name="sal" id="sal" min="1000000" max="2000000" steps="10">
+    </div>
+    <div>
+        <label for="exp">Experience</label>
+        <input type="number" name="exp" id="exp">
+    </div>
+    <button>Submit</button>
+</form>
+<div class="mystyle">
+    <p><abbr title="Nandamuri Bala Krishna">NBK</abbr> is popular telugu actor</p>
+</div>
+<footer>
+    <p>please reach out to me via <a href="facebook.com" target="_self">Facebook</a></p>
+    <address>Raveendra M <br>famous enterpreuner <br>
+Hyderabad
+    50097
+    </address>
+</footer>
+</body>
+</html>
